@@ -3,17 +3,17 @@ layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
 carpentry: "swc"    # what kind of Carpentry (must be either "dc" or "swc")
 venue: "University of Puerto Rico Río Piedras"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Río Piedras, San Juan, Puerto Rico"       # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Engine-4, Sports Complex Onofre Carballeira, Rd. PR-5 Jct. Rd. PR-2, Bayamón, PR 00959"
 country: "pr"
 language: "en"
-latlng: "18.400769,-66.049874"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+latlng: "18.3952628,-66.1525742"
 humandate: "Mar 24-25, 2017" 
 humantime: "9:00 to 4:30"
 startdate: 2017-03-24
 enddate: 2017-03-25
 instructor: ["Rayna Harris", "Sue McClatchy", "Tracy Teal"]
 helper:       # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact:        # contact email address for host, lead instructor, or whoever else is handling questions
+contact: susan.mcclatchy@jax.org
 etherpad: http://pad.software-carpentry.org/2017-03-30-ttt-upr-rp
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -96,7 +96,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% if page.latlng %}
 <p id="where">
   <strong>Where:</strong>
-  {{page.address}}.
+  {{page.address}}. Engine-4, Sports Complex Onofre Carballeira, Bayamón.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
