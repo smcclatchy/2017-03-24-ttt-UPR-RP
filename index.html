@@ -2,13 +2,13 @@
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
 carpentry: "swc"    # what kind of Carpentry (must be either "dc" or "swc")
-venue: "University of Puerto Rico Río Piedras"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "University of Puerto Rico"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Engine-4, Sports Complex Onofre Carballeira, Rd. PR-5 Jct. Rd. PR-2, Bayamón, PR 00959"
 country: "pr"
 language: "en"
 latlng: "18.3952628,-66.1525742"
 humandate: "Mar 24-25, 2017" 
-humantime: "9:00 to 4:30"
+humantime: "8:30 to 4:30"
 startdate: 2017-03-24
 enddate: 2017-03-25
 instructor: ["Rayna Harris", "Sue McClatchy", "Tracy Teal"]
@@ -96,7 +96,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% if page.latlng %}
 <p id="where">
   <strong>Where:</strong>
-  {{page.address}}. Engine-4, Sports Complex Onofre Carballeira, Bayamón.
+  {{page.address}}.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
